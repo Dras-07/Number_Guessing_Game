@@ -1,0 +1,78 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:90vh;
+    background-image: url('ramen.jpg');
+    
+background-repeat: no-repeat;
+background-size: cover;
+    
+align-items: center;
+}
+
+.container{
+     position: absolute;
+   background-color:white;
+   top: 50%;
+   min-width: 580px;
+    transform: translate(-50%,-50%);
+    display: grid;
+    left: 50%;
+    justify-content: center;
+    padding: 14px 10px;
+    border-radius: 53px;
+    width: 41%;
+
+}
+h3{
+    font-weight: 600;
+}
+input[type="text"]
+{
+    width: 95px;
+    padding: 2px 27px;
+    color: black;
+    border: 2px solid black;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-bottom: -3px;
+    margin-left: 195px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 14px;
+    outline: none;
+}
+button{
+    width: 16%;
+margin-left: 199px;
+border: none;
+border-radius: 7px;
+background: rgb(5, 165, 228);
+color: white;
+padding: 0px 21px;
+border: none;
+margin-bottom: 8px;
+    outline: none;
+}
+p{
+    font-weight: bold;
+    
+}
+p .messeage1{
+    margin-top: 400px;
+}
+
+button:hover{
+    transform: scale(1.00000001);
+    transition: 0.4s;
+	color:white;
+	background:rgb(5, 165, 228);
+    font-weight: bolder;
+    box-shadow: 0 0 10px rgb(5, 165, 228),0 0 20px rgb(5, 165, 228),0 0 20px rgb(5, 165, 228);
+}
